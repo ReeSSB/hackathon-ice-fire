@@ -1,0 +1,110 @@
+body {
+  /* background: #008f7a; */
+  /* background: #dff8d5; */
+  background: #d0f5ff;
+  margin: 5%;
+}
+
+.book-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  justify-content: space-evenly;
+  border: 1px none;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to right top,
+    #2c835d,
+    #2c9165,
+    #2b9f6e,
+    #29ad76,
+    #27bb7f,
+    #1fc188,
+    #15c690,
+    #00cc99,
+    #00caa2,
+    #00c7ab,
+    #00c5b1,
+    #1cc2b7
+  );
+
+  padding: 20px;
+  width: 25vw;
+  min-width: 250px;
+  height: auto;
+  min-height: 400px;
+  /* max-height: 450px; */
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.li-class {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+
+  list-style-type: none;
+  font-weight: bold;
+  /* color: #04004a; */
+  color: white;
+}
+.book-ul {
+  border: 1px none black;
+  border-radius: 15px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: #d0f5ff 0px 5px 15px;
+}
+.book-name {
+  width: 100%;
+  font-size: 28px;
+  /* text-shadow: 2px 2px 4px #3a57d8; */
+  text-shadow: 2px 2px 4px rgb(129, 129, 9);
+  /* text-shadow: 2px 2px 4px #f7f7f8; */
+
+  color: rgb(83, 83, 4);
+}
+
+.Fireandice-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  justify-content: center;
+  border: 1px none;
+  border-radius: 25px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #2c835d,
+    #2c9165,
+    #2b9f6e,
+    #29ad76,
+    #27bb7f,
+    #1fc188,
+    #15c690,
+    #00cc99,
+    #00caa2,
+    #00c7ab,
+    #00c5b1,
+    #1cc2b7
+  );
+
+  padding: 20px;
+  width: auto;
+  height: auto;
+  /* max-height: 450px; */
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.dragon-image {
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
